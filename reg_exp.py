@@ -6,7 +6,8 @@ import re
 # -?[0-9]+ --> for -ve and positive numbers, \d+ --> for positive numbers
 # \s* --> for spaces if any
 
-street_name_format = '\"\s*([a-zA-Z]\s*)+\s*\"'
+#street_name_format = '\"\s*([a-zA-Z]\s*)+\s*\"'
+street_name_format = '\".+\"'
 coor_format = '\(\s*-?[0-9]+\s*,\s*-?[0-9]+\s*\)'
 
 #add format - a "Street Name" coordinates

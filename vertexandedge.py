@@ -31,10 +31,10 @@ class VertexAndEdge (object):
         
         # To display number of vertices
         nof=len(self.vertices)
-        display = "V = { \n "
+        display = "V = { \n"
         for ver in range(nof):
             point=self.vertices[ver]
-            b= "(" +str(point[0])+ "," + str(point[1]) + ")"
+            b= "(" + str("{0:.2f}".format(float(point[0])))+ "," + str("{0:.2f}".format(float(point[1]))) + ")"
             display += " " + str(ver+1) + ": " + b + "\n"
         display += "} \n"
         

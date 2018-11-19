@@ -4,7 +4,7 @@ def intersection(x,y,u,v):
     [x2, y2] = y
     [w1, z1] = u
     [w2, z2] = v
-
+    
 
     diff_y = y2 - y1
     diff_x = x1 - x2

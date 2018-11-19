@@ -19,5 +19,5 @@ def extract_coor(input_command):
         y=[float(x) for x in re.findall('-?[0-9]+',coor)]
         #convert each pair of numbers to tuple
         tuple_coor.append(tuple(y))
-  
+        
     return tuple_coor
